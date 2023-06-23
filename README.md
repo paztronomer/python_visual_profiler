@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Notes
 
 - use already available tools as much as possible
