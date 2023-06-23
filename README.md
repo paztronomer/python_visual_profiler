@@ -35,6 +35,8 @@ This is a more focused tool, to be used after we get first assessment from `cPro
    ```pwsh
    docker build -t imw .
 
+   docker run -it -p 8888:8080 -v .:/app --rm imw
+ 
    ```
 ------------------------------------------------------------------------
 

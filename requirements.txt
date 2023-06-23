@@ -1,0 +1,6 @@
+numpy
+pandas
+snakeviz
+jupyterlab
+voila
+virtualenv
