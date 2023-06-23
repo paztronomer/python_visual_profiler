@@ -47,7 +47,7 @@ RUN pip3.11 install --no-cache-dir --upgrade pip \
 
 EXPOSE 8080
 VOLUME /app
-VOLUME /home/${USER}/app
+VOLUME /home/${USER}
 WORKDIR /home/${USER}
 USER ${USER}
 CMD ["bash"]

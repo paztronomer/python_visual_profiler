@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Notes
 
 - use already available tools as much as possible
@@ -35,10 +34,35 @@ This is a more focused tool, to be used after we get first assessment from `cPro
    ```pwsh
    docker build -t imw .
 
-   docker run -it -p 8888:8080 -v .:/app --rm imw
- 
+   docker run -it -p 8888:8888 -v {fullPath}:/home/{username} --rm imw
+   ```
+1. Inside the container run
+   ```pwsh
+   jupyter-lab --ip 0.0.0.0 --no-browser
+   ```
+   This call allows to see the Jupyter Lab to be seen from outside the container. 
+   And on the local machine, go to `localhost:8888` and input the token generated
+   by running Jupyter. Or simply used the suggested call from `jupyter-lab`:
+   `http://127.0.0.1:8888/lab?token={tokenHere}`
+1. To connect to the running container from another terminal session
+   ```
+   docker exec -it {containerID} /bin/bash
    ```
 ------------------------------------------------------------------------
+
+# DEV Notes
+The pipeline.py just has functions, I need a script that actually does something
+Seems like I'll neeed to use some script from astronomy.
+
+To generate a profile output from the CLI, use 
+`python3.11 -m cProfile -s cumulative -o test_pipeline.prof test_pipeline.py`
+And then call snakevix from CLI with
+`snakeviz -H 0.0.0.0 -p 8888 -s test_pipeline.prof`
+and visualise in the browser on the local machine using 
+`http://localhost:{exposedPort:8888}/snakeviz/{path}`
+Make sure to use `localhost`, as otherwise you won't be able to miror
+the process running in the container.
+
 
 # Achieved steps
 
@@ -48,4 +72,4 @@ This is a more focused tool, to be used after we get first assessment from `cPro
 - [ ] Get some example scripts
 - [ ] Toy model for: cProfiling
 - [ ] Toy model for: memTrace
-- [ ] 
+- [ ] understand what the output form snakeviz means
