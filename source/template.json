@@ -1,0 +1,1118 @@
+[
+    {
+        "extension": 1,
+        "keyword": "SIMPLE",
+        "value": true,
+        "comment": "FITS: Compliance"
+    },
+    {
+        "extension": 1,
+        "keyword": "BITPIX",
+        "value": 16,
+        "comment": "FITS: I*2 Data"
+    },
+    {
+        "extension": 1,
+        "keyword": "NAXIS",
+        "value": 2,
+        "comment": "FITS: 2-D Image Data"
+    },
+    {
+        "extension": 1,
+        "keyword": "NAXIS1",
+        "value": 891,
+        "comment": "FITS: X Dimension"
+    },
+    {
+        "extension": 1,
+        "keyword": "NAXIS2",
+        "value": 893,
+        "comment": "FITS: Y Dimension"
+    },
+    {
+        "extension": 1,
+        "keyword": "EXTEND",
+        "value": true,
+        "comment": "FITS: File can contain extensions"
+    },
+    {
+        "extension": 1,
+        "keyword": "DATE",
+        "value": "2014-01-09",
+        "comment": "FITS: Creation Date"
+    },
+    {
+        "extension": 1,
+        "keyword": "ORIGIN",
+        "value": "STScI/MAST",
+        "comment": "GSSS: STScI Digitized Sky Survey"
+    },
+    {
+        "extension": 1,
+        "keyword": "SURVEY",
+        "value": "SERC-ER",
+        "comment": "GSSS: Sky Survey"
+    },
+    {
+        "extension": 1,
+        "keyword": "REGION",
+        "value": "ER768",
+        "comment": "GSSS: Region Name"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLATEID",
+        "value": "A0JP",
+        "comment": "GSSS: Plate ID"
+    },
+    {
+        "extension": 1,
+        "keyword": "SCANNUM",
+        "value": "01",
+        "comment": "GSSS: Scan Number"
+    },
+    {
+        "extension": 1,
+        "keyword": "DSCNDNUM",
+        "value": "00",
+        "comment": "GSSS: Descendant Number"
+    },
+    {
+        "extension": 1,
+        "keyword": "TELESCID",
+        "value": 4,
+        "comment": "GSSS: Telescope ID"
+    },
+    {
+        "extension": 1,
+        "keyword": "BANDPASS",
+        "value": 36,
+        "comment": "GSSS: Bandpass Code"
+    },
+    {
+        "extension": 1,
+        "keyword": "COPYRGHT",
+        "value": "AAO/ROE",
+        "comment": "GSSS: Copyright Holder"
+    },
+    {
+        "extension": 1,
+        "keyword": "SITELAT",
+        "value": -31.277,
+        "comment": "Observatory: Latitude"
+    },
+    {
+        "extension": 1,
+        "keyword": "SITELONG",
+        "value": 210.934,
+        "comment": "Observatory: Longitude"
+    },
+    {
+        "extension": 1,
+        "keyword": "TELESCOP",
+        "value": "UK Schmidt - Doubl",
+        "comment": "Observatory: Telescope"
+    },
+    {
+        "extension": 1,
+        "keyword": "INSTRUME",
+        "value": "Photographic Plate",
+        "comment": "Detector: Photographic Plate"
+    },
+    {
+        "extension": 1,
+        "keyword": "EMULSION",
+        "value": "IIIaF",
+        "comment": "Detector: Emulsion"
+    },
+    {
+        "extension": 1,
+        "keyword": "FILTER",
+        "value": "OG590",
+        "comment": "Detector: Filter"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTSCALE",
+        "value": 67.2,
+        "comment": "Detector: Plate Scale arcsec per mm"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTSIZEX",
+        "value": 355.0,
+        "comment": "Detector: Plate X Dimension mm"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTSIZEY",
+        "value": 355.0,
+        "comment": "Detector: Plate Y Dimension mm"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLATERA",
+        "value": 85.599455,
+        "comment": "Observation: Field centre RA degrees"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLATEDEC",
+        "value": -4.9466091,
+        "comment": "Observation: Field centre Dec degrees"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTLABEL",
+        "value": "OR14052",
+        "comment": "Observation: Plate Label"
+    },
+    {
+        "extension": 1,
+        "keyword": "DATE-OBS",
+        "value": "1990-12-22T13:49:00",
+        "comment": "Observation: Date/Time"
+    },
+    {
+        "extension": 1,
+        "keyword": "EXPOSURE",
+        "value": 65.0,
+        "comment": "Observation: Exposure Minutes"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTGRADE",
+        "value": "AD2",
+        "comment": "Observation: Plate Grade"
+    },
+    {
+        "extension": 1,
+        "keyword": "OBSHA",
+        "value": 0.158333,
+        "comment": "Observation: Hour Angle"
+    },
+    {
+        "extension": 1,
+        "keyword": "OBSZD",
+        "value": 26.3715,
+        "comment": "Observation: Zenith Distance"
+    },
+    {
+        "extension": 1,
+        "keyword": "AIRMASS",
+        "value": 1.11587,
+        "comment": "Observation: Airmass"
+    },
+    {
+        "extension": 1,
+        "keyword": "REFBETA",
+        "value": 66.319642,
+        "comment": "Observation: Refraction Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "REFBETAP",
+        "value": -0.082,
+        "comment": "Observation: Refraction Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "REFK1",
+        "value": 6423.5229,
+        "comment": "Observation: Refraction Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "REFK2",
+        "value": -102122.55,
+        "comment": "Observation: Refraction Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "CNPIX1",
+        "value": 12237,
+        "comment": "Scan: X Corner"
+    },
+    {
+        "extension": 1,
+        "keyword": "CNPIX2",
+        "value": 19965,
+        "comment": "Scan: Y Corner"
+    },
+    {
+        "extension": 1,
+        "keyword": "XPIXELS",
+        "value": 23040,
+        "comment": "Scan: X Dimension"
+    },
+    {
+        "extension": 1,
+        "keyword": "YPIXELS",
+        "value": 23040,
+        "comment": "Scan: Y Dimension"
+    },
+    {
+        "extension": 1,
+        "keyword": "XPIXELSZ",
+        "value": 15.0295,
+        "comment": "Scan: Pixel Size microns"
+    },
+    {
+        "extension": 1,
+        "keyword": "YPIXELSZ",
+        "value": 15.0,
+        "comment": "Scan: Pixel Size microns"
+    },
+    {
+        "extension": 1,
+        "keyword": "PPO1",
+        "value": -3069417.0,
+        "comment": "Scan: Orientation Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "PPO2",
+        "value": 0.0,
+        "comment": "Scan: Orientation Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "PPO3",
+        "value": 177500.0,
+        "comment": "Scan: Orientation Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "PPO4",
+        "value": 0.0,
+        "comment": "Scan: Orientation Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "PPO5",
+        "value": 3069417.0,
+        "comment": "Scan: Orientation Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "PPO6",
+        "value": 177500.0,
+        "comment": "Scan: Orientation Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTRAH",
+        "value": 5,
+        "comment": "Astrometry: Plate Centre H"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTRAM",
+        "value": 42,
+        "comment": "Astrometry: Plate Centre M"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTRAS",
+        "value": 23.86,
+        "comment": "Astrometry: Plate Centre S"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTDECSN",
+        "value": "-",
+        "comment": "Astrometry: Plate Centre +/-"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTDECD",
+        "value": 4,
+        "comment": "Astrometry: Plate Centre D"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTDECM",
+        "value": 56,
+        "comment": "Astrometry: Plate Centre M"
+    },
+    {
+        "extension": 1,
+        "keyword": "PLTDECS",
+        "value": 47.9,
+        "comment": "Astrometry: Plate Centre S"
+    },
+    {
+        "extension": 1,
+        "keyword": "EQUINOX",
+        "value": 2000.0,
+        "comment": "Astrometry: Equinox"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX1",
+        "value": 67.1550859799,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX2",
+        "value": 0.0431478884485,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX3",
+        "value": -292.43561918,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX4",
+        "value": -2.68934864702e-05,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX5",
+        "value": 1.9913342329e-05,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX6",
+        "value": -2.37011931379e-06,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX7",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX8",
+        "value": 2.21426387429e-06,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX9",
+        "value": -8.12841581455e-08,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX10",
+        "value": 2.48169090021e-06,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX11",
+        "value": 2.77618933926e-08,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX12",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX13",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX14",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX15",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX16",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX17",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX18",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX19",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDX20",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY1",
+        "value": 67.1593591466,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY2",
+        "value": -0.0471363749174,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY3",
+        "value": 316.00496352,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY4",
+        "value": 2.8679815143e-05,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY5",
+        "value": -2.00968236347e-05,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY6",
+        "value": 2.27840393227e-05,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY7",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY8",
+        "value": 2.23885090381e-06,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY9",
+        "value": -2.28360163464e-08,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY10",
+        "value": 2.44828851495e-06,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY11",
+        "value": -5.76717487998e-08,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY12",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY13",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY14",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY15",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY16",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY17",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY18",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY19",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDY20",
+        "value": 0.0,
+        "comment": "Astrometry: GSC1 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX1",
+        "value": 67.1532034737,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX2",
+        "value": 0.0434354199559,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX3",
+        "value": -292.435438892,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX4",
+        "value": 4.6091924707e-06,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX5",
+        "value": -3.21138058537e-06,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX6",
+        "value": 7.23651736725e-06,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX7",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX8",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX9",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX10",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX11",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX12",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX13",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX14",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX15",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX16",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX17",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX18",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX19",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREX20",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY1",
+        "value": 67.1522589487,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY2",
+        "value": -0.0481758265285,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY3",
+        "value": 315.995683716,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY4",
+        "value": -7.4739753123e-06,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY5",
+        "value": 9.55221105409e-07,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY6",
+        "value": 7.60954485251e-06,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY7",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY8",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY9",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY10",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY11",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY12",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY13",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY14",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY15",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY16",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY17",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY18",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY19",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "AMDREY20",
+        "value": 0.0,
+        "comment": "Astrometry: GSC2 Coeff"
+    },
+    {
+        "extension": 1,
+        "keyword": "ASTRMASK",
+        "value": "er.mask",
+        "comment": "Astrometry: GSC2 Mask"
+    },
+    {
+        "extension": 1,
+        "keyword": "WCSAXES",
+        "value": 2,
+        "comment": "GetImage: Number WCS axes"
+    },
+    {
+        "extension": 1,
+        "keyword": "WCSNAME",
+        "value": "DSS",
+        "comment": "GetImage: Local WCS approximation from full plat"
+    },
+    {
+        "extension": 1,
+        "keyword": "RADESYS",
+        "value": "ICRS",
+        "comment": "GetImage: GSC-II calibration using ICRS system"
+    },
+    {
+        "extension": 1,
+        "keyword": "CTYPE1",
+        "value": "RA---TAN",
+        "comment": "GetImage: RA-Gnomic projection"
+    },
+    {
+        "extension": 1,
+        "keyword": "CRPIX1",
+        "value": 446.0,
+        "comment": "GetImage: X reference pixel"
+    },
+    {
+        "extension": 1,
+        "keyword": "CRVAL1",
+        "value": 85.27497,
+        "comment": "GetImage: RA of reference pixel"
+    },
+    {
+        "extension": 1,
+        "keyword": "CUNIT1",
+        "value": "deg",
+        "comment": "GetImage: degrees"
+    },
+    {
+        "extension": 1,
+        "keyword": "CTYPE2",
+        "value": "DEC--TAN",
+        "comment": "GetImage: Dec-Gnomic projection"
+    },
+    {
+        "extension": 1,
+        "keyword": "CRPIX2",
+        "value": 447.0,
+        "comment": "GetImage: Y reference pixel"
+    },
+    {
+        "extension": 1,
+        "keyword": "CRVAL2",
+        "value": -2.458265,
+        "comment": "GetImage: Dec of reference pixel"
+    },
+    {
+        "extension": 1,
+        "keyword": "CUNIT2",
+        "value": "deg",
+        "comment": "Getimage: degrees"
+    },
+    {
+        "extension": 1,
+        "keyword": "CD1_1",
+        "value": -0.0002802651,
+        "comment": "GetImage: rotation matrix coefficient"
+    },
+    {
+        "extension": 1,
+        "keyword": "CD1_2",
+        "value": 3.159e-07,
+        "comment": "GetImage: rotation matrix coefficient"
+    },
+    {
+        "extension": 1,
+        "keyword": "CD2_1",
+        "value": 2.767e-07,
+        "comment": "GetImage: rotation matrix coefficient"
+    },
+    {
+        "extension": 1,
+        "keyword": "CD2_2",
+        "value": 0.0002798187,
+        "comment": "GetImage: rotation matrix coefficient"
+    },
+    {
+        "extension": 1,
+        "keyword": "OBJECT",
+        "value": "data",
+        "comment": "GetImage: Requested Object Name"
+    },
+    {
+        "extension": 1,
+        "keyword": "DATAMIN",
+        "value": 3759,
+        "comment": "GetImage: Minimum returned pixel value"
+    },
+    {
+        "extension": 1,
+        "keyword": "DATAMAX",
+        "value": 22918,
+        "comment": "GetImage: Maximum returned pixel value"
+    },
+    {
+        "extension": 1,
+        "keyword": "OBJCTRA",
+        "value": "05 41 06.000",
+        "comment": "GetImage: Requested Right Ascension (J2000)"
+    },
+    {
+        "extension": 1,
+        "keyword": "OBJCTDEC",
+        "value": "-02 27 30.00",
+        "comment": "GetImage: Requested Declination (J2000)"
+    },
+    {
+        "extension": 1,
+        "keyword": "OBJCTX",
+        "value": 12682.48,
+        "comment": "GetImage: Requested X on plate (pixels)"
+    },
+    {
+        "extension": 1,
+        "keyword": "OBJCTY",
+        "value": 20411.37,
+        "comment": "GetImage: Requested Y on plate (pixels)"
+    },
+    {
+        "extension": 2,
+        "keyword": "XTENSION",
+        "value": "TABLE",
+        "comment": "ASCII table extension"
+    },
+    {
+        "extension": 2,
+        "keyword": "BITPIX",
+        "value": 8,
+        "comment": "8 bit bytes"
+    },
+    {
+        "extension": 2,
+        "keyword": "NAXIS",
+        "value": 2,
+        "comment": "2-dimensional ASCII table"
+    },
+    {
+        "extension": 2,
+        "keyword": "NAXIS1",
+        "value": 24,
+        "comment": "Width of table in bytes"
+    },
+    {
+        "extension": 2,
+        "keyword": "NAXIS2",
+        "value": 1600,
+        "comment": "Number of rows in table"
+    },
+    {
+        "extension": 2,
+        "keyword": "PCOUNT",
+        "value": 0,
+        "comment": "Size of special data area"
+    },
+    {
+        "extension": 2,
+        "keyword": "GCOUNT",
+        "value": 1,
+        "comment": "one data group (required keyword)"
+    },
+    {
+        "extension": 2,
+        "keyword": "TFIELDS",
+        "value": 4,
+        "comment": "Number of fields in each row"
+    },
+    {
+        "extension": 2,
+        "keyword": "EXTNAME",
+        "value": "er.mask",
+        "comment": "FITS: Name of Table"
+    },
+    {
+        "extension": 2,
+        "keyword": "TTYPE1",
+        "value": "XI",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TBCOL1",
+        "value": 1,
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TFORM1",
+        "value": "F6.2",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TUNIT1",
+        "value": "DEGREES",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TTYPE2",
+        "value": "ETA",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TBCOL2",
+        "value": 7,
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TFORM2",
+        "value": "F6.2",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TUNIT2",
+        "value": "DEGREES",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TTYPE3",
+        "value": "XI_CORR",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TBCOL3",
+        "value": 13,
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TFORM3",
+        "value": "F6.2",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TUNIT3",
+        "value": "ARCSEC",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TTYPE4",
+        "value": "ETA_CORR",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TBCOL4",
+        "value": 19,
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TFORM4",
+        "value": "F6.2",
+        "comment": ""
+    },
+    {
+        "extension": 2,
+        "keyword": "TUNIT4",
+        "value": "ARCSEC",
+        "comment": ""
+    }
+]

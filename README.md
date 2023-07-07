@@ -34,7 +34,7 @@ This is a more focused tool, to be used after we get first assessment from `cPro
    ```pwsh
    docker build -t imw .
 
-   docker run -it -p 8888:8888 -v {fullPath}:/home/{username} --rm imw
+   docker run -it -p 8888:8888 -v ${PWD}:/home/{username} --rm imw
    ```
 1. Inside the container run
    ```pwsh
@@ -59,9 +59,20 @@ To generate a profile output from the CLI, use
 And then call snakevix from CLI with
 `snakeviz -H 0.0.0.0 -p 8888 -s test_pipeline.prof`
 and visualise in the browser on the local machine using 
-`http://localhost:{exposedPort:8888}/snakeviz/{path}`
-Make sure to use `localhost`, as otherwise you won't be able to miror
-the process running in the container.
+`http://localhost:{exposedPort:8888}/snakeviz/{path}` as in
+`http://localhost:8888/snakeviz/%2Fhome%2Ffpaz%2Fheader_to_json.prof`
+Make sure to use `localhost`, as otherwise you won't be able to mirror
+the process running in the container. Also, if you're running Jupyter
+or other app that uses an open port, you may need to expose a second 
+port when running the container, so you'll have a open connection available
+(otherwise snakeviz won't show on the outside)
+
+Can use the pro from header to json. Just know how to ectract the info.
+
+Packages to add
+- scipy
+- matplotlib
+- astropy
 
 
 # Achieved steps
@@ -73,3 +84,5 @@ the process running in the container.
 - [ ] Toy model for: cProfiling
 - [ ] Toy model for: memTrace
 - [ ] understand what the output form snakeviz means
+- [ ] test with a code easy to run with mock arguments
+- [ ] run venv with requirements_venv.txt

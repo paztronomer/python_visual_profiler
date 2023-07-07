@@ -11,6 +11,7 @@ RUN apt-get update -y \
     bash build-essential zlib1g-dev libncurses5-dev libgdbm-dev \
     libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev \
     wget libbz2-dev \
+    nano sudo \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean \
     && apt-get autoremove -y \
