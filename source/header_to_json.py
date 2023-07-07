@@ -7,6 +7,7 @@ import argparse
 import copy
 import json
 from astropy.io import fits
+from guppy import hpy
 
 __author__ = "Francisco Paz-C"
 
@@ -132,3 +133,5 @@ def _aux_main():
 if __name__ == "__main__":
 
     _aux_main()
+    h = hpy()
+    print(h.heap())

@@ -1,0 +1,20 @@
+numpy
+pandas
+snakeviz
+jupyterlab
+voila
+# MSTL decomposition
+matplotlib
+scipy
+matplotlib
+astropy
+seaborn
+git+https://github.com/statsmodels/statsmodels.git@74836e9cf2198ac7a930146405da7239c0823a9b#egg=statsmodels
+# TS approach
+# statsmodels
+vaex
+scikit-learn
+gatspy
+PyWavelets
+# For memmory profiling
+guppy3
