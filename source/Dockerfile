@@ -16,7 +16,7 @@ RUN apt-get update -y \
     && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/* 
 
-# Get Python directly from source
+# Get Python 3.11 directly from source
 WORKDIR /tmp
 RUN wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz \
     && tar -xf Python-3.11.3.tgz
@@ -29,6 +29,17 @@ WORKDIR /tmp/Python-3.11.3
 RUN ./configure --enable-optimizations
 RUN make -j 4 && make altinstall \
     && rm -rf /tmp/Python-3.11.3*
+
+# Get Python 3.9 from deadsnakes PPA
+RUN apt-get update -y \
+    && apt-get install -y software-properties-common \
+    && add-apt-repository ppa:deadsnakes/ppa \
+    && apt-get update -y \
+    && apt-get install -y python3.9 python3.9-dev python3.9-distutils \
+    && rm -rf /var/lib/apt/lists/* \
+    && apt-get clean \
+    && apt-get autoremove -y \
+    && rm -rf /var/lib/apt/lists/*
 
 # Add a non-root user
 ARG USER=fpaz
